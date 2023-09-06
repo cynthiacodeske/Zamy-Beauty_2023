@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamy-Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Zamy-Beauty</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services & Prices</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="about">
+    <h2>About Me</h2>
+    <img src="Images\Blessing.JPG" alt="Owner" width="200">
+    <p>Meet Zamy-Beauty:
+        Your Expert in African Hairstyles!
+
+        Zamy-Beauty is your go-to specialist for authentic African hairstyles. With a singular focus and skill, they bring the essence of African culture and beauty to life through their exceptional hairstyling. From traditional elegance to contemporary flair, Zamy-Beauty's artistry weaves together heritage and individuality in every strand. Welcome to a world where hair becomes a canvas of cultural expression with Zamy-Beauty.
+    </p>
+</section>
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+        <img src="Images\braids.jpg" alt="Hairstyle 1" width="300" height="300">
+        <img src="Images/brownbraids.jpg" alt="Hairstyle 2" width="300" height="300">
+        <img src="Images/cornrows.jpg" alt="Hairstyle 3" width="300" height="300">
+        <img src="Images/curlybraids.jpg" alt="Hairstyle 4" width="300" height="300">
+        <img src="Images/smallfulani.jpg" alt="Hairstyle 5" width="300" height="300">
+        <img src="Images\twists.jpg" alt="Hairstyle 6" width="300" height="300">
+        <img src="Images\ponytail.jpg" alt="Hairstyle 7" width="300" height="300">
+        <img src="Images\cornrows2.jpg" alt="Hairstyle 8" width="300" height="300">
+    </div>
+</section>
+<section id="services">
+    <h2>Services & Prices</h2>
+    <title>Service Prices</title>
+<table>
+    <tr>
+        <th>Services</th>
+        <th>Prices</th>
+    </tr>
+    <tr>
+        <td>Knotless Braids (S)</td>
+        <td>CHF 250</td>
+    </tr>
+    <tr>
+        <td>Knotless Braids (M)</td>
+        <td>CHF 200</td>
+    </tr>
+    <tr>
+        <td>Knotless Braids (L)</td>
+        <td>CHF 150</td>
+    </tr>
+    <tr>
+        <td>Regular braids (S)</td>
+        <td>CHF 200</td>
+    </tr>
+    <tr>
+        <td>Regular braids (M)</td>
+        <td>CHF 150</td>
+    </tr>
+    <tr>
+        <td>Regular braids (L)</td>
+        <td>CHF 120</td>
+    </tr>
+    <tr>
+        <td>Individual Crotchet</td>
+        <td>CHF 100</td>
+    </tr>
+    <tr>
+        <td>Fulani braids (Long)</td>
+        <td>CHF 200</td>
+    </tr>
+    <tr>
+        <td>Fulani braids (Short)</td>
+        <td>CHF 150</td>
+    </tr>
+    <tr>
+        <td>Regular Crotchet</td>
+        <td>CHF 70</td>
+    </tr>
+    <tr>
+        <td>Cornrows (full-head)</td>
+        <td>CHF 60</td>
+    </tr>
+    <tr>
+        <td>Cornrows (half-head)</td>
+        <td>CHF 40</td>
+    </tr>
+</table>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Seeking a fresh look? Reach out to us for appointment bookings today!</p>
+<h1>Book your appointment with us!</h1>
+<form action="process_booking.php" method="post">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required><br><br>
+
+    <label for="street">Street Name:</label>
+    <input type="text" id="street" name="street" required><br><br>
+
+    <label for="houseNumber">House Number:</label>
+    <input type="text" id="houseNumber" name="houseNumber" required><br><br>
+
+    <label for="postalCode">Postal Code:</label>
+    <input type="text" id="postalCode" name="postalCode" required><br><br>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required><br><br>
+
+    <label for="service">Select a Service</label>
+    <select name="service" id="service">
+        <option value="service1">Knotless braids (S) - CHF 250</option>
+        <option value="service2">Knotless braids (M) - CHF 200</option>
+        <option value="service3">Knotless braids (L) - CHF 150</option>
+        <option value="service4">Regular braids (S)  - CHF 200</option>
+        <option value="service5">Regular braids (M)  - CHF 150</option>
+        <option value="service6">Regular braids (L)  - CHF 120</option>
+        <option value="service7">Fulani Braids (S)   - CHF 200</option>
+        <option value="service8">Fulani Braids (L)   - CHF 150</option>
+        <option value="service9">Individual Crotchet - CHF 100</option>
+        <option value="service10">Regular Crotchet    - CHF 70</option>
+        <option value="service11">Cornrows (half-head)- CHF 40</option>
+        <option value="service12">Cornrows (full-head)- CHF 60</option>
+    </select><br><br>
+</form>
+    <p>Email: zamyglobal@gmail.com</p>
+    <p>Phone: +41 77 980 70 99</p>
+</section><br><br>
+<footer>
+    <p>2023 Zamy-Beauty. All rights reserved.</p>
+    <nav>
+        <ul>
+            <li><a href="#TermsandConditions">Terms and Conditions</a></li>
+        </ul>
+    </nav>
+</footer>
+    
+</body>
+</html>
