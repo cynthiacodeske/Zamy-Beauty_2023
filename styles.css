@@ -70,5 +70,11 @@ table {
     display: inline;
     margin-right: 20px;
   }
-  
+  button {
+    background-color: green;
+    color: white;
+  }
+  button:hover{
+    background-color: lightgreen;
+  }
   
